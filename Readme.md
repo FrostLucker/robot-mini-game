@@ -17,9 +17,9 @@ To launch the game please execute the following command: ruby main.rb
 
 
 Basic behavior of this app are: 
- I have three layers of app
- 1) Models (Toys and children)
- 2) Controller that rule toy in our case it is robot
- 3) Game , control console inputs and send command to controller
+There are three layers of app
+ * Models (Toys and children)
+ * Controller that rule toy in our case it is robot
+ * Game , control console inputs and send command to controller
 
  
