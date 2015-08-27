@@ -4,7 +4,7 @@ require "test/unit"
 class TestRobot < Test::Unit::TestCase
  
   def test_creation
-  	robot = Robot.new(1, 2, "South")
+    robot = Robot.new(1, 2, "South")
 
     assert_equal(1, robot.x)
     assert_equal(2, robot.y)

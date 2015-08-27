@@ -4,11 +4,11 @@
 # that can be placed on board
 
 class Toy
-	attr_accessor :x, :y, :f
+  attr_accessor :x, :y, :f
 
-	def initialize(x, y, f)
-		@x = x.to_i
-		@y = y.to_i
-		@f = f.downcase.capitalize
-	end
+  def initialize(x, y, f)
+    @x = x.to_i
+    @y = y.to_i
+    @f = f.downcase.capitalize
+  end
 end
